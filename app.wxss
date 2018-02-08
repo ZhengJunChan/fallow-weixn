@@ -1,0 +1,14 @@
+/**app.wxss**/
+page{
+  height: 100%;
+}
+
+/* 灰色边框 */
+.grey_bottom_border {
+  border-bottom: 1rpx solid #f7f7f7;
+}
+
+/* 内边距15：用于内容与模块间的距离 */
+.padding_15{
+  padding: 15rpx;
+}

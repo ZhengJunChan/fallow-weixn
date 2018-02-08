@@ -1,0 +1,7 @@
+.activity_list {
+  height: 100%;
+}
+
+.scroller {
+  height: 100%
+}

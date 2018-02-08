@@ -1,0 +1,11 @@
+.activity_list {
+  height: 100%;
+}
+
+.scroller {
+  height: 100%
+}
+
+.item {
+  margin-top: 60rpx;
+}

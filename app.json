@@ -1,0 +1,39 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/partner/partner",
+    "pages/together/activity-list/index",
+    "pages/together/activity-detail/index",
+    "pages/user-center/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#ff9d00",
+    "navigationBarTitleText": "欢乐与假期",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color":"#a4a4a4",
+    "selectedColor":"#ff9d00",
+    "list": [
+      {
+        "selectedIconPath": "images/tab-bar/partner-selected.png",
+        "iconPath": "images/tab-bar/partner.png",
+        "pagePath": "pages/index/index",
+        "text": "结伴"
+      },
+      {
+        "selectedIconPath": "images/tab-bar/together-selected.png",
+        "iconPath": "images/tab-bar/together.png",
+        "pagePath": "pages/together/activity-list/index",
+        "text": "同行"
+      },
+      {
+        "selectedIconPath": "images/tab-bar/uesercenter-selected.png",
+        "iconPath": "images/tab-bar/uesercenter.png",
+        "pagePath": "pages/user-center/index",
+        "text": "我的"
+      }
+    ]
+  }
+}

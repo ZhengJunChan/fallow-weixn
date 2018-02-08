@@ -1,0 +1,8 @@
+<!--logs.wxml-->
+<view class="activity_list">
+  <scroll-view class="scroller" scroll-y bindscrolltoupper="upper" bindscrolltolower="lower">
+    <view class="item grey_bottom_border padding_15" data-id="{{item.id}}" wx:for="{{activityList}}" wx:key="index" bindtap="goDetailPage">
+      <text>{{item.title}}</text>
+    </view>
+  </scroll-view>
+</view>
